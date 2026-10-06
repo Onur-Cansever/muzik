@@ -178,3 +178,13 @@ Aynı seed ile iki ayrı kayıt birebir aynı sesi verir —
 - Kriptografik rastgelelik amaçlanmıyor; LCG yeterlidir.
 - Streaming WAV denendi (RIFF header + sonsuz data): hem FFmpeg hem SoX
   bozuk header'ı reddetti; bu yüzden çıktı ham raw, header çalar tarafında.
+
+## Lisans
+
+**GPL v3** (GNU General Public License, version 3). Tam metin: `LICENSE`
+dosyasında. Kısaca: ücretsiz, copyleft — başkası fork'layıp dağıtırsa
+türev de GPL kalmak zorunda; kapatamaz.
+
+> Fork'layıp pipe'a konulmak (örn. `./muzik | ffplay`) GPL'i çalara
+> bulaştırmaz; pipe'ın iki tarafı ayrı eserdir. Sadece muzik ve
+> doğrudan türevleri GPL'e tabidir.
